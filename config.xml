@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns        = "http://www.w3.org/ns/widgets"
+		    xmlns:gap    = "http://phonegap.com/ns/1.0"
+		    id           = "com.technical.english"
+		    versionCode  = "10"
+		    version      = "1.0.0">
+
+		    <!-- Name -->
+		    <name>Технический английский (словарь)</name>
+
+		    <!-- Description -->
+		    <description>Данный словарь является сборником терминов, словосочетаний и сокращений по прикладному и системному программному обеспечению, микропроцессорам, базам данных, компьютерным сетям и информационным технологиям. Словарь предназначен для пользователей персональных компьютеров и специалистам в области информационных технологий.</description>
+
+		    <!-- Author -->
+		    <author href="https://artemsannikov.ru" email="info@artemsannikov.ru">
+		    	Artem Sannikov
+		    </author>
+
+		    <!-- Platform App-->
+			<platform name="ios" />
+			<platform name="android" />
+			<platform name="winphone" />
+
+
+	</widget>
