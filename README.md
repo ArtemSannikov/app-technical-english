@@ -5,4 +5,5 @@
 Приложение разработано на базе фреймворка jQuery Mobile.
 
 Официальный сайт: [ArtemSannikov.ru](http://artemsannikov.ru)
+
 Play Market: [Технический английский (справочник)](https://play.google.com/store/apps/details?id=com.technical.english)
