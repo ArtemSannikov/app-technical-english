@@ -11,7 +11,7 @@ function onDeviceReady() {
 		offsetStatusBar: false, //установить значение true, чтобы избежать перекрытия строки состояния ios7
 		isTesting: false, //если надо потестировать объявления устанавливаем true
 		autoShowBanner: true, //автоматическое показ объявлений баннеров, когда они доступны
-		autoShowInterstitial: true //объявление объявления межстраничного объявления при наличии
+		autoShowInterstitial: false //показывать межстраничные объявления при наличии
 	});
 
 	// Start showing banners (atomatic when autoShowBanner is set to true) 
