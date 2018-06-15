@@ -2,8 +2,8 @@
 	<widget xmlns        = "http://www.w3.org/ns/widgets"
 		    xmlns:gap    = "http://phonegap.com/ns/1.0"
 		    id           = "com.technical.english"
-		    versionCode  = "22"
-		    version      = "1.1.2">
+		    versionCode  = "23"
+		    version      = "1.2">
 
 		    <!-- Название приложения -->
 		    <name>Технический английский</name>
@@ -31,12 +31,17 @@
 
 			<!-- Разрешения -->
 			<preference name="permissions" value="none"/>
+	
+			<!-- разрешение для переноса приложения на SD карту -->
+			<!--<preference name="android-manifest/@android:installLocation" value="auto" />-->
+			<preference name="android-installLocation" value="auto" />
+
 			<!--<preference name="fullscreen" value="true" />-->
 			<preference name="AllowInlineMediaPlayback" value="true" />
 			<preference name="InAppBrowserStorageEnabled" value="true" />
 			
-			<!-- Плагины -->
-			<plugin name="cordova-plugin-whitelist" spec="1" /><!-- Для открытия внешних ссылок -->
+			<!-- Whilelist plugin cordova -->
+			<plugin name="cordova-plugin-whitelist" spec="1" /> <!-- Для открытия внешних ссылок -->
 
 			<!-- Доступ к web сайтам -->
 			<access origin="*" />
