@@ -1,0 +1,7 @@
+/*no disk icon & transparent icon*/
+.transparentButton {
+	background-color: transparent !important;
+	border: 0 !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
